@@ -1,0 +1,127 @@
+html {
+    height: 100%;
+    background: radial-gradient(circle, #50508f, #b1b1eb);
+}
+
+#container {
+    height: 600px;
+    width: 750px;
+    background-color: #5858b2;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 1px 1px #101081;
+    position: relative;
+}
+
+#score {
+    background-color: #45d778;
+    color: #b82058;
+    padding: 11px;
+    border-radius: 9px;
+    box-shadow: 1px 3px #096c40;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    left: 700px;
+    line-height: 5px;
+    text-align: center;
+}
+
+#trialsleft {
+    width: 86px;
+    padding: 10px;
+    position: absolute;
+    background-color: #54df4e;
+    color: #0a06bd;
+    font-weight: 600;
+    font-style: italic;
+    border-radius: 8px;
+    box-shadow: 1px 2px #0c9457;
+    text-align: center;
+    display: none;
+}
+
+#fruitContainer {
+    background-color: #b8b8f0;
+    height: 400px;
+    width: 650px;
+    margin: 50px auto 10px auto;
+    box-shadow: 1px 5px #32326e;
+    border-radius: 10px;
+    font-size: 100px;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    color: #101013;
+    position: relative;
+    overflow: hidden;
+}
+
+#instruction {
+    width: 450px;
+    height: 50px;
+    background-color: #a557e4;
+    margin: 10px auto;
+    text-align: center;
+    color: #53098f;
+    line-height: 45px;
+    border-radius: 10px;
+    box-shadow: 1px 3px #770852;
+    font-weight: bolder;
+}
+
+#startreset:hover {
+    background-color: #8446d6;
+    color: #ece7ed;
+    box-shadow: 1px 2px #41088c;
+}
+
+#startreset:active {
+    box-shadow: 0 0 #dfbdef;
+    top: 4px;
+}
+
+#startreset {
+    width: 82px;
+    background-color: #9160d1;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 9px;
+    box-shadow: 1px 2px #7744ba;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s;
+    position: relative;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#gameover {
+    height: 200px;
+    width: 500px;
+    background: linear-gradient(#ad42f5, #580b7e);
+    color: #d3da66;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 170px;
+    left: 145px;
+    border-radius: 10px;
+    box-shadow: 1px 4px #330f4c;
+    font-style: oblique;
+    font-weight: 500;
+    z-index: 2;
+    display: none;
+}
+
+.life {
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
+}
+
+.fruit {
+    display: none;
+    position: absolute;
+}

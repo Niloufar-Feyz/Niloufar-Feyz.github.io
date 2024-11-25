@@ -1,0 +1,80 @@
+
+.view{
+    position: relative;
+    margin: 15px;
+    
+    border: 5px;
+    border-color: brown;
+    transition: transform 0.2s, box-shadow 0.2s;
+ 
+     border: 3px solid #f31e07; 
+    padding: 16px; 
+    border-radius: 8px;
+        
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.view:hover { 
+    transform: scale(1.05);
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.title{
+    margin: 2px;;
+    font-size: medium;
+    font-style: italic;
+    text-align: justify;
+    color: rgb(13, 23, 23);
+    margin: 12px;
+
+}
+.price{
+    color: black;
+    font-size: medium;
+    text-align: justify;
+    margin: 10px;
+
+}
+.discount { 
+    color: green;
+    margin: 9px;
+
+   } 
+    
+    .original-price { 
+       
+        text-decoration: line-through;
+        color: red;
+        margin: 9px;
+
+    }
+
+    
+
+.delivery{
+    color: rgb(134, 6, 173);
+    font-weight: bold;
+    font-size: medium;
+    text-align: right;
+    margin: 10px;
+
+}
+
+.badge { 
+    position: absolute; 
+    height: 20px;
+    width: 80px;
+    bottom: 3px;
+    left: 10px;
+    font-size: small;
+    
+     color: white;
+      padding: 5px 10px;
+       border-radius: 5px; 
+       font-weight: bold;
+       background-color: rgba(255, 0, 0, 0.8);
+       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+       z-index: 10;
+}

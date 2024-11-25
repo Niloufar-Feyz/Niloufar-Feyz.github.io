@@ -1,0 +1,19 @@
+.nav{
+    background-color: rgb(156, 211, 231);
+    border: 3px;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+
+.newKala{
+    font-size: x-large;
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+    margin: 20px;
+    padding: 15px;
+    height: 30px;
+}
+
+
